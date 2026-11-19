@@ -1,6 +1,5 @@
 # Solar_Power_Generation_Prediction
- 📌** Project Overview**
-
+** 📌 Project Overview **
 Solar energy is one of the most important renewable energy sources. However, solar power generation depends on several environmental factors, such as sunlight, temperature, weather conditions, and other atmospheric parameters.
 
 This project focuses on predicting solar power generation using Machine Learning techniques. By analyzing historical renewable energy data, the system learns patterns between input features and solar power generation to predict the expected energy output.
@@ -275,3 +274,82 @@ Solar_Power_Generation_Prediction/
 ├── requirements.txt
 │
 └── README.md
+
+**🚀 7. How to Run the Project**
+
+**Step 1: Clone the Repository**
+
+git clone https://github.com/Geetha-sridevi/Solar_Power_Generation_Prediction.git
+
+**Step 2: Navigate to Project Folder**
+
+cd Solar_Power_Generation_Prediction
+
+**Step 3: Create a Virtual Environment (Optional)**
+
+python -m venv myenv
+
+Activate it on Windows:
+
+myenv\Scripts\activate
+
+**Step 4: Install Required Libraries**
+
+pip install -r requirements.txt
+
+**Step 5: Run the Streamlit Application**
+
+streamlit run app.py
+
+**Step 6: Make Predictions**
+
+Open the Streamlit application in your browser.
+
+Enter the required input values.
+
+Click the Predict button.
+
+View the predicted solar power generation.
+
+**📊 8. Expected Output**
+
+The application accepts the required input features from the user and predicts the expected solar power generation using the trained Machine Learning model.
+
+The prediction is displayed through an interactive Streamlit interface.
+
+**🌍 9. Real-World Applications**
+Solar power plant energy planning.
+
+Renewable energy management.
+
+Electricity generation forecasting.
+
+Solar farm performance analysis.
+
+Energy resource optimization.
+
+Supporting electricity supply planning.
+
+**🔮 10. Future Enhancements**
+
+Integrate real-time weather information.
+
+Use advanced Machine Learning algorithms.
+
+Improve prediction accuracy with additional historical data.
+
+Develop long-term solar energy forecasting.
+
+Deploy the application on a cloud platform.
+
+Integrate real-time solar power monitoring.
+
+📝 **11. Conclusion**
+
+Solar Power Generation Prediction using Machine Learning provides a data-driven approach to estimating solar energy production.
+
+By analyzing historical renewable energy data, performing data preprocessing, applying Machine Learning regression algorithms, and evaluating model performance, the project aims to predict solar power generation.
+
+The Streamlit application makes the prediction process simple and interactive, allowing users to enter input values and obtain estimated energy output.
+
+This project demonstrates how Machine Learning can be applied to renewable energy forecasting and contribute to better energy planning and management.
